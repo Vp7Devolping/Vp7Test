@@ -32,22 +32,6 @@
 - número Turma [INT 2]
 - nivel [INT 1]
 
-- comandos:
-CREAT TABLE IF NOT EXISTS 'user'(
-    'id' INT(5),
-    'nome' TEXT(15),
-    'apelido' TEXT(25),
-    'idade' INT(2),
-    'email' TEXT(50),
-    'password' TEXT(50),
-    'nivel' INT(1),
-    'numero' INT(2),
-PRIMARY KEY ('id'),
-UNIQUE KEY 'email' ('email'),
-KEY 'nivel' ('nivel')
-)
-
-
 **2. Tabela: Calendario**
     
 **3. Tabela: Turma**
